@@ -1,0 +1,27 @@
+version: "3"
+services:
+  connector-ptnad:
+    image: # ID собранного образа
+    environment:
+      - OPENCTI_URL=http://localhost
+      - OPENCTI_TOKEN=ChangeMe
+      - CONNECTOR_ID=ChangeMe
+      - CONNECTOR_LIVE_STREAM_ID=live # ID of the live stream created in the OpenCTI UI
+      - CONNECTOR_LIVE_STREAM_LISTEN_DELETE=true
+      - CONNECTOR_LIVE_STREAM_NO_DEPENDENCIES=true
+      - CONNECTOR_NAME=PT NAD
+      - CONNECTOR_SCOPE=ip,dn,url,md5
+      - PTNAD_URL=https://localhost.ru
+      - PTNAD_SSL_VERIFY=false
+      #- PTNAD_TOKEN=ChangeMe
+      - PTNAD_USERNAME=ChangeMe
+      - PTNAD_PASSWORD=ChangeMe
+      - PTNAD_IP_REPLIST_NAME=opencti-ip-replist
+      - PTNAD_DN_REPLIST_NAME=opencti-dn-replist
+      - PTNAD_URL_REPLIST_NAME=opencti-url-replist
+      - PTNAD_MD5_REPLIST_NAME=opencti-md5-replist
+      - PTNAD_IP_EXTERNAL_KEY=opencti-ip
+      - PTNAD_DN_EXTERNAL_KEY=opencti-dn
+      - PTNAD_URL_EXTERNAL_KEY=opencti-url
+      - PTNAD_MD5_EXTERNAL_KEY=opencti-md5
+    restart: always

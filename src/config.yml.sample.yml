@@ -1,0 +1,28 @@
+opencti:
+  url: 'http://localhost:8080'
+  token: 'ChangeMe'
+
+connector:
+  id: 'ChangeMe'
+  type: 'STREAM'
+  live_stream_id: '' # ID of the live stream created in the OpenCTI UI
+  live_stream_listen_delete: true
+  live_stream_no_dependencies: true
+  name: 'PT NAD'
+  scope: 'md5' # comma separated list ioc's type
+
+ptnad:
+  url: 'https://localhost'
+  ssl_verify: False
+  # token: 'ChangeMe'
+  username: 'ChangeMe'
+  password: 'ChangeMe'
+  reference_name: 'OpenCTI'
+  ip_replist_name: 'ip'
+  dn_replist_name: 'dn'
+  url_replist_name: 'url'
+  md5_replist_name: 'hash'
+  ip_external_key: 'ip'
+  dn_external_key: 'dn'
+  url_external_key: 'url'
+  md5_external_key: 'hash'
