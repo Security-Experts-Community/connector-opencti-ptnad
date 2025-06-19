@@ -36,12 +36,12 @@
 ### Шаблоны
 
 При создании issue используйте соответствующие шаблоны:
-- [Шаблон для сообщения об ошибках](.github/ISSUE_TEMPLATE/form_for_bugs.yml)
-- [Шаблон для предложения улучшений](.github/ISSUE_TEMPLATE/form_for_features.yml)
+- [Шаблон для сообщения об ошибках](https://github.com/Security-Experts-Community/connector-opencti-ptnad/issues/new?template=form_for_bugs.yml)
+- [Шаблон для предложения улучшений](https://github.com/Security-Experts-Community/connector-opencti-ptnad/issues/new?template=form_for_features.yml)
 
 ## Кодекс поведения
 
-Этот проект следует [Кодексу поведения](CODE_OF_CONDUCT.md). Пожалуйста, будьте уважительны во всех взаимодействиях.
+Этот проект следует [Кодексу поведения](https://github.com/Security-Experts-Community/connector-opencti-ptnad?tab=coc-ov-file). Пожалуйста, будьте уважительны во всех взаимодействиях.
 
 ## Сообщение об ошибках
 
@@ -78,7 +78,5 @@
 - Улучшение документации
 - Исправления ошибок
 
-## Есть вопросы?
-
-- Создайте [issue](https://github.com/Security-Experts-Community/connector-opencti-ptnad/issues) для обсуждения
-- Начните [дискуссию](https://github.com/Security-Experts-Community/connector-opencti-ptnad/discussions) в репозитории
+---
+Если у вас есть вопросы, создайте [issue](https://github.com/Security-Experts-Community/connector-opencti-ptnad/issues) или свяжитесь с нами.
